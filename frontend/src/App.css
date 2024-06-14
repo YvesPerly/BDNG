@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.publications-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.publication {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication h2 {
+  margin-top: 0;
+}
+
+.publication p {
+  margin-bottom: 10px;
+}
